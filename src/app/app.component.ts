@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import * as moment from 'moment';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   title = 'all-Projects';
+  mp3Path=""
+  time:any;
+  
+  
   linksArray = [
     {
       "name": "website",
@@ -34,8 +38,6 @@ export class AppComponent implements OnInit {
       "icon":"fa fa-medium"
     }
 
-    
-
   ]
 
   allProjects = [
@@ -58,7 +60,7 @@ export class AppComponent implements OnInit {
     {
       "name": "tvd",
       "desc": "The Vampire Diaries all season download and stream online",
-      "url": "https://.netlify.app"
+      "url": "https://tvd.netlify.app"
     },
     {
       "name": "interflixreviews",
@@ -97,9 +99,26 @@ export class AppComponent implements OnInit {
     }
 
   ]
+  
   ngOnInit() {
     this.allProjects.sort(this.sortByProperty("name"))
-    console.log(this.allProjects)
+    //console.log(this.allProjects)
+    this.time =  moment().format('mm');
+    
+    if(this.time %3==0){
+      console.log("playing the flash")
+   this.mp3Path= "../assets/theflash.mp3"
+    }
+    else if(this.time%3==1){
+      console.log("playing avengers")
+      this.mp3Path= "../assets/avengers.mp3"
+    }
+    else{
+      console.log("playing pubg")
+      this.mp3Path="../assets/pubg.mp3"
+    }
+
+   
   }
 
   sortByProperty(property) {
