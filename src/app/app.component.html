@@ -2,16 +2,27 @@
 <nav class="navbar">
   <div class="container-fluid">
       <div class="navbar-header">
-          <a class="navbar-brand navMe" routerLink="/" >The Failing Coder</a>
+          <a class="navbar-brand navMe" href="https://farmanabbasi.netlify.app" target="_blank">The Failing Coder</a>
           
       </div>
   </div>
 </nav>
 
 <div class="allCards">
-    <div  style="position: relative;" *ngFor="let project of allProjects">
+    <div  style="position: relative;" *ngFor="let project of allProjects;let i=index">
       <div class="card">
-        <div class="internalCard"></div>
+        <div class="internalCard" *ngIf="i+1<10">
+            <a href="{{project.url}}" target="_blank">0{{i+1}}</a>
+            <div class="internalDesc">{{project.desc}}</div>
+        </div>
+
+        <div class="internalCard" *ngIf="i+1>=10">
+            <a href="{{project.url}}" target="_blank">{{i+1}}</a>
+            <div class="internalDesc">{{project.desc}}</div>
+        </div>
+        
+            
+         
       </div>
       <p >{{project.name}}</p>
     </div>
