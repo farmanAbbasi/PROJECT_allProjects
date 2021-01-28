@@ -41,7 +41,11 @@ export class AppComponent implements OnInit {
   ]
 
   allProjects = [
-
+ {
+      "name": "interflixgame",
+      "desc": "Play a game and have fun.",
+      "url": "https://interflixgame.netlify.app"
+    },
     {
       "name": "focusnews",
       "desc": "News Application with language selection and search feature for any desired topic.",
