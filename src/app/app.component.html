@@ -1,45 +1,47 @@
+<div class="body">
 
-<nav class="navbar">
-  <div class="container-fluid">
-      <div class="navbar-header">
-          <a class="navbar-brand navMe" href="https://farmanabbasi.netlify.app" target="_blank">The Failing Coder</a>
-          
-      </div>
-  </div>
-</nav>
-
-<div class="allCards">
-    <div  style="position: relative;" *ngFor="let project of allProjects;let i=index">
-      <div class="card">
-        <div class="internalCard" *ngIf="i+1<10">
-            <a href="{{project.url}}" target="_blank">0{{i+1}}</a>
-            <div class="internalDesc">{{project.desc}}</div>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand navMe" href="https://farmanabbasi.netlify.app" target="_blank">The Failing Coder</a>
+                
+            </div>
         </div>
-
-        <div class="internalCard" *ngIf="i+1>=10">
-            <a href="{{project.url}}" target="_blank">{{i+1}}</a>
-            <div class="internalDesc">{{project.desc}}</div>
-        </div>
-        
-            
-         
-      </div>
-      <p >{{project.name}}</p>
-    </div>
-</div>
-
-<div class="mainLinkHolder">
-    <div *ngFor="let link of linksArray">
-        <div class="link">
-            <a href="{{link.link}}" target="_blank" class="{{link.icon}}"></a>
-        </div>
+      </nav>
       
+      <div class="allCards">
+          <div  style="position: relative;" *ngFor="let project of allProjects;let i=index">
+            <div class="card">
+              <div class="internalCard" *ngIf="i+1<10">
+                  <a href="{{project.url}}" target="_blank">0{{i+1}}</a>
+                  <div class="internalDesc">{{project.desc}}</div>
+              </div>
+      
+              <div class="internalCard" *ngIf="i+1>=10">
+                  <a href="{{project.url}}" target="_blank">{{i+1}}</a>
+                  <div class="internalDesc">{{project.desc}}</div>
+              </div>
+              
+                  
+               
+            </div>
+            <p >{{project.name}}</p>
+          </div>
       </div>
-</div>
-
-<div id="player">
-    <audio autoplay preload="auto">
-     <source [src]="mp3Path" type="audio/mpeg">
-    If you're reading this, audio isn't supported. 
-    </audio>
+      
+      <div class="mainLinkHolder">
+          <div *ngFor="let link of linksArray">
+              <div class="link">
+                  <a href="{{link.link}}" target="_blank" class="{{link.icon}}"></a>
+              </div>
+            
+            </div>
+      </div>
+      
+      <div id="player">
+          <audio autoplay loop>
+           <source src="../assets/avengers.mp3" type="audio/mpeg">
+          If you're reading this, audio isn't supported. 
+          </audio>
+      </div>
 </div>

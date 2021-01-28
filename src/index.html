@@ -9,8 +9,22 @@
   <link rel="icon" type="image/x-icon" href="./assets/TFC.PNG">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+window.addEventListener('load', 
+  function() { 
+  
+  const redBtn = document.querySelector('#toggleMe');
+  redBtn.addEventListener('click',(e)=>{
+    console.log("toggle");
+    document.querySelector('root').style.filter = 'invert(100%)'
+ })
+  
+},false)
+</script>
 </head>
-<body>
+
+<body >
+  <!-- <i class="fa fa-toggle-off rootButton" aria-hidden="true" id="toggleMe"></i> -->
   <app-root></app-root>
 </body>
 </html>

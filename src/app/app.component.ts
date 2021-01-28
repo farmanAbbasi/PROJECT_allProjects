@@ -102,20 +102,20 @@ export class AppComponent implements OnInit {
   
   ngOnInit() {
     this.allProjects.sort(this.sortByProperty("name"))
-    //console.log(this.allProjects)
+    // console.log(this.allProjects)
     this.time =  moment().format('mm');
     
     if(this.time %3==0){
       console.log("playing the flash")
-   this.mp3Path= "../assets/theflash.mp3"
+   this.mp3Path= "theflash.mp3"
     }
     else if(this.time%3==1){
       console.log("playing avengers")
-      this.mp3Path= "../assets/avengers.mp3"
+      this.mp3Path= "avengers.mp3"
     }
     else{
       console.log("playing pubg")
-      this.mp3Path="../assets/pubg.mp3"
+      this.mp3Path="pubg.mp3"
     }
 
    
