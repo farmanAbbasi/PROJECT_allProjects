@@ -92,9 +92,9 @@ export class AppComponent implements OnInit {
       "url": "https://getgitprofile2.netlify.app"
     },
     {
-      "name": "selfcode3",
+      "name": "selfcode2",
       "desc": "Get any public user and see repos also run Python and Java files one the spot and review what has already been pushed.",
-      "url": "https://.netlify.app"
+      "url": "https://selfcode2.netlify.app"
     },
     {
       "name": "cpl2020",
