@@ -43,17 +43,17 @@ export class AppComponent implements OnInit {
   allProjects = [
  {
       "name": "interflixgame",
-      "desc": "Play a game and have fun.",
+      "desc": "Play a game and have fun. Created using js,html and css",
       "url": "https://interflixgame.netlify.app"
     },
     {
       "name": "focusnews",
-      "desc": "News Application with language selection and search feature for any desired topic.",
+      "desc": "News Application with language selection and search feature for any desired topic.Created using REST API, node.js and Angular.",
       "url": "https://focusnews.netlify.app"
     },
     {
       "name": "interflix",
-      "desc": "One stop movies watch, with popular, trending, netflix-trend, movie-news etc. features.",
+      "desc": "One stop movies watch, with popular, trending, netflix-trend, movie-news etc. features. Created using REST API, node.js, Angular, TMDB for movies, Python, Webscraping and others.",
       "url": "https://interflixv3.netlify.app"
     },
     {
@@ -63,42 +63,42 @@ export class AppComponent implements OnInit {
     },
     {
       "name": "tvd",
-      "desc": "The Vampire Diaries all season download and stream online",
+      "desc": "The Vampire Diaries all season download and stream online. Created using Webscraping, node.js and Angular.",
       "url": "https://tvd.netlify.app"
     },
     {
       "name": "interflixreviews",
-      "desc": "Watch movies on Interflix and then review for other users.",
+      "desc": "Watch movies on Interflix and then review for other users. Created using React.js, mongoDB and compass.",
       "url": "https://interflixreviews.netlify.app"
     },
     {
       "name": "rsidebar",
-      "desc": "Learning React with sidebar app.",
+      "desc": "Learning React with sidebar app. Created using React.js.",
       "url": "https://rsidebar.netlify.app"
     },
     {
       "name": "rnavbar",
-      "desc": "Learning React navbar app.",
+      "desc": "Learning React navbar app.  Created using React.js.",
       "url": "https://rnavbar.netlify.app"
     },
     {
       "name": "getgitprofile",
-      "desc": "Search any Github profile and then see the code from selfcode3.",
+      "desc": "Search any Github profile and then see the code from selfcode3. Created using Angular, Github API, python.",
       "url": "https://getgitprofile.netlify.app"
     },
     {
       "name": "getgitprofile2",
-      "desc": "Search any Github profile and browse github.",
+      "desc": "Search any Github profile and browse github. Created using Angular, Github API, python.",
       "url": "https://getgitprofile2.netlify.app"
     },
     {
       "name": "selfcode2",
-      "desc": "Get any public user and see repos also run Python and Java files one the spot and review what has already been pushed.",
+      "desc": "Get any public user and see repos also run Python and Java files one the spot and review what has already been pushed. Created using Angular, Github API, python, runtime for Python and Java to run code.",
       "url": "https://selfcode2.netlify.app"
     },
     {
       "name": "cpl2020",
-      "desc": "Get Topics against IPL teams to code and learn during IPL 2020.",
+      "desc": "Get Topics against IPL teams to code and learn during IPL 2020. Created on Angular.",
       "url": "https://cpl2020.netlify.app"
     }
 
