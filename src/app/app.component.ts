@@ -93,7 +93,7 @@ export class AppComponent implements OnInit {
     },
     {
       "name": "selfcode2",
-      "desc": "Get any public user and see repos also run Python and Java files one the spot and review what has already been pushed. Created using Angular, Github API, python, runtime for Python and Java to run code.",
+      "desc": "Get any public user and see repos also run Python and Java files on the spot and review what has already been pushed. Created using Angular, Github API, python, runtime for Python and Java to run code.",
       "url": "https://selfcode2.netlify.app"
     },
     {
