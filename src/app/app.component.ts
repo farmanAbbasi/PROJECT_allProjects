@@ -12,6 +12,7 @@ export class AppComponent implements OnInit {
   
   
   linksArray = [
+  
     {
       "name": "website",
       "link": "https://farmanabbasi.netlify.app",
@@ -41,6 +42,11 @@ export class AppComponent implements OnInit {
   ]
 
   allProjects = [
+    {
+      "name": "Bharatpe clone",
+      "desc": "Its a bharatpe clone ui.",
+      "url": "https://bharatpe-clone.netlify.app"
+    },
  {
       "name": "interflixgame",
       "desc": "Play a game and have fun. Created using js,html and css",
