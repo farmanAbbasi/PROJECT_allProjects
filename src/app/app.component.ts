@@ -57,11 +57,11 @@ export class AppComponent implements OnInit {
       "desc": "News Application with language selection and search feature for any desired topic.Created using REST API, node.js and Angular.",
       "url": "https://focusnews.netlify.app"
     },
-    {
-      "name": "interflix",
-      "desc": "One stop movies watch, with popular, trending, netflix-trend, movie-news etc. features. Created using REST API, node.js, Angular, TMDB for movies, Python, Webscraping and others.",
-      "url": "https://interflixv3.netlify.app"
-    },
+//     {
+//       "name": "interflix",
+//       "desc": "One stop movies watch, with popular, trending, netflix-trend, movie-news etc. features. Created using REST API, node.js, Angular, TMDB for movies, Python, Webscraping and others.",
+//       "url": "https://interflixv3.netlify.app"
+//     },
     {
       "name": "tek-one",
       "desc": "Tekathon 2020, full application built within 1hr with deployment.",
