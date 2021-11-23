@@ -87,16 +87,16 @@ export class AppComponent implements OnInit {
       "desc": "Learning React navbar app.  Created using React.js.",
       "url": "https://rnavbar.netlify.app"
     },
-    {
-      "name": "getgitprofile",
-      "desc": "Search any Github profile and then see the code from selfcode3. Created using Angular, Github API, python.",
-      "url": "https://getgitprofile.netlify.app"
-    },
-    {
-      "name": "getgitprofile2",
-      "desc": "Search any Github profile and browse github. Created using Angular, Github API, python.",
-      "url": "https://getgitprofile2.netlify.app"
-    },
+//     {
+//       "name": "getgitprofile",
+//       "desc": "Search any Github profile and then see the code from selfcode3. Created using Angular, Github API, python.",
+//       "url": "https://getgitprofile.netlify.app"
+//     },
+//     {
+//       "name": "getgitprofile2",
+//       "desc": "Search any Github profile and browse github. Created using Angular, Github API, python.",
+//       "url": "https://getgitprofile2.netlify.app"
+//     },
     {
       "name": "selfcode2",
       "desc": "Get any public user and see repos also run Python and Java files on the spot and review what has already been pushed. Created using Angular, Github API, python, runtime for Python and Java to run code.",
