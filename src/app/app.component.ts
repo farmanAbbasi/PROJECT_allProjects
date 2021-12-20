@@ -87,16 +87,16 @@ export class AppComponent implements OnInit {
       "desc": "Learning React navbar app.  Created using React.js.",
       "url": "https://rnavbar.netlify.app"
     },
-//     {
-//       "name": "getgitprofile",
-//       "desc": "Search any Github profile and then see the code from selfcode3. Created using Angular, Github API, python.",
-//       "url": "https://getgitprofile.netlify.app"
-//     },
-//     {
-//       "name": "getgitprofile2",
-//       "desc": "Search any Github profile and browse github. Created using Angular, Github API, python.",
-//       "url": "https://getgitprofile2.netlify.app"
-//     },
+    {
+      "name": "getgitprofile",
+      "desc": "Search any Github profile and then see the code from selfcode3. Created using Angular, Github API, python.",
+      "url": "https://getgitprofile.netlify.app"
+    },
+    {
+      "name": "getgitprofile2",
+      "desc": "Search any Github profile and browse github. Created using Angular, Github API, python.",
+      "url": "https://getgitprofile2.netlify.app"
+    },
     {
       "name": "selfcode2",
       "desc": "Get any public user and see repos also run Python and Java files on the spot and review what has already been pushed. Created using Angular, Github API, python, runtime for Python and Java to run code.",
@@ -106,6 +106,11 @@ export class AppComponent implements OnInit {
       "name": "cpl2020",
       "desc": "Get Topics against IPL teams to code and learn during IPL 2020. Created on Angular.",
       "url": "https://cpl2020.netlify.app"
+    },
+    {
+      "name": "meditor",
+      "desc": "Upload status which can be seen by everyone using the app for the 24hrs.",
+      "url": "https://me-editor.netlify.app"
     }
 
   ]
