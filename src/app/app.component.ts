@@ -25,7 +25,7 @@ export class AppComponent implements OnInit {
     },
     {
       "name": "linkedin",
-      "link": "https://www.linkedin.com/in/mohammad-farman-abbasi-9a0237142",
+      "link": "https://www.linkedin.com/in/mohammad-farman-abbasi",
       "icon":"fa fa-linkedin"
     },
     {
