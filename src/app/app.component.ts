@@ -111,6 +111,11 @@ export class AppComponent implements OnInit {
       "name": "meditor",
       "desc": "Upload status which can be seen by everyone using the app for the 24hrs.",
       "url": "https://me-editor.netlify.app"
+    },
+    {
+      "name": "tic-tac-toe",
+      "desc": "The classic tic tac toe game ",
+      "url": "https://ticer-tacker-toe.netlify.app"
     }
 
   ]
